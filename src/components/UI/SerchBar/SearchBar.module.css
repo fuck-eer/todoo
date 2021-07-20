@@ -1,0 +1,29 @@
+.searchBar {
+	position: relative;
+	width: 90%;
+	margin-top: 6%;
+}
+.searchBar input {
+	all: unset;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 5px 8px;
+	padding-left: 40px;
+	background-color: #2c3036;
+	border-radius: 10px;
+	color: white;
+	transition: all 0.3s;
+}
+
+.searchBar img {
+	position: absolute;
+	top: 20%;
+	left: 4%;
+	max-width: 8%;
+}
+.searchBar input:hover {
+	width: 100%;
+}
+.searchBar input:focus {
+	width: 100%;
+}

@@ -1,0 +1,71 @@
+.QuoteSec {
+	width: 20vw;
+	height: 90vh;
+	/* background-color: aqua; */
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	/* border-right: 1px solid #aaa; */
+}
+
+.QuoteSec::before {
+	content: "";
+	position: absolute;
+	top: 30%;
+	right: 1%;
+	left: 98.8%;
+	bottom: 30%;
+	border-radius: 10px;
+	background-color: #aaa;
+}
+
+.ActivitySec {
+	/* background-color: red; */
+	width: 70vw;
+	height: 90vh;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.todoNav {
+	position: fixed;
+	width: 16%;
+	/* background-color: aliceblue; */
+	top: 95%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.todoNav nav {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.listHolder {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.link {
+	all: unset;
+	padding: 5px 8px;
+	border-radius: 5px;
+	color: #777;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+.link:hover {
+	background-color: #2c3036;
+	/* color: #fff;  */
+}
+.active {
+	background-color: #2c3036;
+	color: #fff;
+}

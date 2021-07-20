@@ -1,0 +1,52 @@
+.QuoteContainer {
+	width: 80%;
+	height: 70%;
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	flex-flow: column nowrap;
+}
+.tag {
+	height: 5%;
+	font-size: 20px;
+	color: #c0c0c0;
+	margin-bottom: 1rem;
+	font-weight: 100;
+	/* text-align: left; */
+	/* background-color: aqua; */
+}
+.keywords {
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	flex-flow: column nowrap;
+	/* background-color: aliceblue; */
+}
+.keywords p {
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 1;
+	color: #fff;
+}
+.quote {
+	height: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.quote p {
+	font-size: 18px;
+	font-weight: 300;
+	color: #555;
+}
+.symbol {
+	margin-top: 1rem;
+	height: 5%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.symbol img {
+	width: 5%;
+}

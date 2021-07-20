@@ -1,0 +1,38 @@
+.layout {
+	width: 100vw;
+	height: 100vh;
+	/* background-color: aqua; */
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.QuoteSec {
+	width: 30vw;
+	height: 60vh;
+	/* background-color: aqua; */
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	/* border-right: 1px solid #aaa; */
+}
+
+.QuoteSec::before {
+	content: "";
+	position: absolute;
+	top: 30%;
+	right: 1%;
+	left: 98.8%;
+	bottom: 30%;
+	border-radius: 10px;
+	background-color: #aaa;
+}
+
+.activityArea {
+	/* background-color: red; */
+	width: 60vw;
+	height: 90vh;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}

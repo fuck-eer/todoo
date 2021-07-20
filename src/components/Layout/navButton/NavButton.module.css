@@ -1,0 +1,14 @@
+.navButtons {
+	position: fixed;
+	top: 90%;
+	left: 4%;
+	display: flex;
+	width: 12%;
+	justify-content: flex-start;
+	align-items: center;
+	cursor: pointer;
+
+	/* background-color: aqua; */
+}
+.navButtons * + * {
+}

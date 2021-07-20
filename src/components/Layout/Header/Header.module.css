@@ -1,0 +1,60 @@
+.mainHead {
+	width: 5vw;
+	height: 90vh;
+	position: fixed;
+	z-index: 1;
+	top: 5vh;
+	right: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: bisque;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(15px);
+}
+.mainNav {
+	height: 90%;
+	width: 90%;
+	/* background-color: aqua; */
+	display: flex;
+	/* justify-content: stretch; */
+	align-items: stretch;
+}
+.listHolder {
+	width: 100%;
+	height: 100%;
+	/* background-color: aquamarine; */
+	display: flex;
+	/* align-items: center; */
+	justify-content: space-between;
+	flex-flow: column nowrap;
+}
+
+.listHolder li {
+	/* background-color: red; */
+	list-style: none;
+	width: 100%;
+}
+.logoCont {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logoCont img {
+	width: 60%;
+	/* height: 50%; */
+}
+.brandName {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.brandName p {
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+	color: #fff;
+	font-size: 30px;
+	font-weight: 600;
+	text-transform: uppercase;
+}

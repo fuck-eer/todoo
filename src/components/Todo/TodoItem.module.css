@@ -1,0 +1,101 @@
+.Item {
+	border-radius: 15px;
+	width: 30%;
+	height: 45%;
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-flow: column nowrap;
+	z-index: 0;
+	background-color: #2c3036;
+}
+.todoButtons {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-flow: column nowrap;
+	position: absolute;
+	bottom: 5%;
+	right: 8%;
+	width: 10%;
+	height: 40%;
+	/* background-color: aqua; */
+}
+.todoDetails {
+	margin: 0;
+	padding: 0;
+	padding-top: 20px;
+	width: 90%;
+	height: 60%;
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+	flex-flow: column nowrap;
+	/* background-color: aqua; */
+}
+.todoDetails h2 {
+	color: #fff;
+	font-size: 25px;
+	font-weight: 100;
+	text-transform: capitalize;
+}
+.details {
+	color: #aaa;
+	font-size: 15px;
+	font-weight: 100;
+}
+.tags {
+	color: #c0c0c0;
+	font-size: 12px;
+	font-weight: 200;
+}
+.todoStatus {
+	margin: 0;
+	padding: 0;
+	width: 90%;
+	height: 40%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: stretch;
+	flex-flow: column nowrap;
+	/* background-color: aquamarine; */
+}
+.todoStatus h6 {
+	color: #c0c0c0;
+	font-size: 15px;
+	font-weight: 200;
+}
+.todoStatus * {
+	margin-top: 5px;
+}
+.statusMarker {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-flow: row nowrap;
+	width: 50%;
+}
+.statusMarker p {
+	width: 85%;
+	color: #aaa;
+	font-size: 12px;
+	font-weight: 200;
+}
+.marker {
+	width: 5%;
+	margin: 0;
+	padding: 0;
+	width: 10px;
+	height: 10px;
+	background-color: #f3ea09;
+	border-radius: 50%;
+}
+.holButton {
+	position: absolute;
+	bottom: 5%;
+	width: 15px;
+	height: 15px;
+	background-color: #777;
+	border-radius: 50%;
+}

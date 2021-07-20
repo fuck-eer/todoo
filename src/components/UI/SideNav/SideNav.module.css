@@ -1,0 +1,9 @@
+.SideNavCont {
+	width: 90%;
+	height: 90%;
+	/* background-color: aqua; */
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-flow: column nowrap;
+}
